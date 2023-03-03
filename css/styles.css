@@ -1,0 +1,192 @@
+/* CSS Document */
+
+/* Colors
+Red: #D81F0A
+Yellow: #FFFB0F
+Green: #7CB54A
+Blue: #276DB2
+Magenta: #C16E8C
+*/
+
+
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+} 
+
+
+/* Body Styles */
+
+body {
+	
+}
+
+
+/* Header Styles */
+
+header {
+	padding: 75px 50px; /* TRBL */
+	background-color: #C16E8C; /* Magenta */
+}
+
+h1, blockquote {
+	color: #FFFB0F; /* Yellow */
+}
+
+h1 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 4em;
+}
+
+blockquote {
+	margin-right: 425px;
+	text-align: center;
+	font-size: 2.75em;
+}
+
+
+/* Main Styles */
+
+main {
+	min-height: 600px;
+	padding: 50px 25px; /* TRBL */
+	background-color: #276DB2; /* Blue */
+}
+
+h2, p {
+	padding: 1%;
+	float: left;
+	color: #7CB54A; /* Green */
+}
+
+h2 {
+	font-size: 2em;
+}
+
+p {
+	margin-right: 175px;
+	font-size: 1.4em;
+}
+
+.rtFloat {
+	position: relative;
+	float: right;
+}
+
+form {
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 100px;
+	border: 10px #FFFB0F solid; /* Yellow */
+	color: white;
+	background-color: #C16E8C; /* Magenta */
+	padding: 50px; /* T R B L */
+	font-size: 1.25em;
+}
+
+input {
+	font-size: 1.1em; 
+	border-radius: 5px;
+	background-color: white;
+}
+
+input[type=text] {
+	width: 70%;
+}
+		
+input[type=email] {
+	width: 98%;
+}
+
+input[type=submit] {
+	background-color: #D81F0A; /* Red */
+	color: white;
+	padding: 3%;
+	margin: 10%;
+}
+
+input[type=submit]:hover {
+	background-color: #7CB54A; /* Green */
+	color: white;
+	padding: 3%;
+}
+input[type=reset] {
+	font-family: 'Merriweather', serif;
+	background-color: white;
+	color: black;
+	padding: 3%;
+}
+
+input[type=reset]:hover {
+	background-color: orange;
+	color: white;
+	padding: 3%;
+}
+
+
+
+/* Navigation Styles */
+
+nav {
+	clear:both;
+	padding: 40px 100px;
+	background-color: #7CB54A; /* Green */
+}
+
+nav a { 
+	padding: 40px 40px;
+	color: #FFFB0F; /* Yellow */
+	text-decoration: none;
+	font-size: 1.55em;
+}
+
+nav ul {
+	display: block;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+nav a:hover {
+	color: #7CB54A; /* Green */
+	background-color: #FFFB0F; /* Yellow */
+}
+
+
+/* Footer Styles */
+
+footer {
+	padding-bottom: 65px;
+	color: #FFFB0F; /* Yellow */
+	background-color: #D81F0A; /* Red */
+}
+
+h3, h4, h5 {
+	padding: 1%;
+}
+
+h3, h4 {
+	margin-top: 15px;
+	text-align: center;
+	padding: 10px;
+}
+
+h5 {
+	margin-left: 400px;
+	margin-right: 400px;
+	text-align: left;
+}
+
+
+/* Not Used */
+
+table {
+	
+}
